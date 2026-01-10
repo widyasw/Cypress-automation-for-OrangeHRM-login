@@ -1,0 +1,16 @@
+{
+  
+  "name": "orangehrm-cypress",
+  "version": "1.0.0",
+  "description": "Cypress Automation Test for OrangeHRM Login Feature",
+  "scripts": {  
+  "cypress:open": "cypress open",
+  "cypress:run": "cypress run"
+  
+  },
+  
+  "devDependencies": {    
+  "cypress": "^15.8.2"
+  
+  }
+}
