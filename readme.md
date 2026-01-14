@@ -7,6 +7,34 @@ Automation ini mencakup:
 - Penggunaan Cypress Intercept untuk simulasi response backend
 - Penggunaan Page Object Model (POM)
 
+## Struktur Project
+cypress
+│
+├── e2e
+│   ├── intercept
+│   │   └── login-intercept.cy.js      # Test automation login menggunakan Cypress Intercept
+│   │       
+│   ├── pom
+│   │   └── login.cy.js                # Test automation login menggunakan Page Object Model (POM)
+│   │       
+│   │
+│   └── login.cy.js                    # Test login dasar tanpa POM dan tanpa intercept
+│       
+│
+├── fixtures
+│   └── pom
+│   │   └── loginData.json             # Data login khusus untuk test menggunakan POM
+│   │       
+│   └── loginData.json                 # Data login untuk test dasar / intercept
+│ 
+├── pages
+│   └── loginPage.js                   # Page Object Model (selector & action login)
+│       
+└── support
+    ├── commands.js                    # Custom Cypress command
+    │   
+    └── e2e.js                          # Konfigurasi Cypress
+        
 
 ## Test Cases
 TC-01 Valid Login  
