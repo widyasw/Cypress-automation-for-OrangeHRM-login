@@ -21,6 +21,9 @@ TC-05 Both fields empty
 4. Login Failed - Server error
 5. Login with delayed response
 
+<p align="center">
+  <img src="assets/images/pom-test.png" width="700">
+</p>
 ## Test Cases - POM
 1. Login Success  
 2. Login Failed - Wrong Password
