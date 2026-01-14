@@ -34,16 +34,13 @@ describe('Quiz 3 - Login Test with Intercept', () => {
   
     // 3. Login Failed - Empty Username
     it('Login failed when username is empty', () => {
-      cy.intercept('POST', '**/auth/validate', {
-        statusCode: 400,
-        body: { error: 'Username required' }
-      }).as('emptyUsername')
-  
+      cy.intercept('POST', '**/auth/validate').as('emptyUsername')
+
       cy.get('input[name="password"]').type('admin123')
       cy.get('button[type="submit"]').click()
-  
-      cy.wait('@emptyUsername')
-    })
+        
+      cy.contains('Required').should('be.visible')
+})
   
     // 4. Login Failed - Server Error
     it('Login failed due to server error', () => {
@@ -76,4 +73,5 @@ describe('Quiz 3 - Login Test with Intercept', () => {
     })
   
   })
+
   
