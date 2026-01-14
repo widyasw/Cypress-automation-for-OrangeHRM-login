@@ -34,7 +34,7 @@ cypress
 └── support
     ├── commands.js                    # Custom Cypress command
     │   
-    └── e2e.js                          # Konfigurasi Cypress
+    └── e2e.js                         # Konfigurasi Cypress
 ```
 
 ## Test Cases
