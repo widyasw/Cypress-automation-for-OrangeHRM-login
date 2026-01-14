@@ -8,6 +8,7 @@ Automation ini mencakup:
 - Penggunaan Page Object Model (POM)
 
 ## Struktur Project
+```text
 cypress
 │
 ├── e2e
@@ -34,7 +35,7 @@ cypress
     ├── commands.js                    # Custom Cypress command
     │   
     └── e2e.js                          # Konfigurasi Cypress
-        
+```
 
 ## Test Cases
 TC-01 Valid Login  
