@@ -7,9 +7,6 @@ Automation ini mencakup:
 - Penggunaan Cypress Intercept untuk simulasi response backend
 - Penggunaan Page Object Model (POM)
 
-<p align="center">
-  <img src="assets/images/basic-test.png" width="700">
-</p>
 
 ## Test Cases
 TC-01 Valid Login  
