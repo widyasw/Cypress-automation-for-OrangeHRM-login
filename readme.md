@@ -17,9 +17,8 @@ TC-02 Invalid Login
 TC-03 Username valid & password empty  
 TC-04 Username empty & password valid  
 TC-05 Both fields empty
-
 <p align="center">
-  <img src="assets/images/intercept-test.png" width="700">
+  <img src="assets/images/basic-test.png" width="700">
 </p>
 
 ## Test Cases - Intercept
@@ -28,9 +27,8 @@ TC-05 Both fields empty
 3. Login Failed - Empty username
 4. Login Failed - Server error
 5. Login with delayed response
-
-<p align="center">
-  <img src="assets/images/pom-test.png" width="700">
+6. <p align="center">
+  <img src="assets/images/intercept-test.png" width="700">
 </p>
 
 ## Test Cases - POM
@@ -39,4 +37,6 @@ TC-05 Both fields empty
 3. Login Failed - Empty Username
 4. Login failed - Empty password
 5. Login failed - Both fields empty
-
+<p align="center">
+  <img src="assets/images/pom-test.png" width="700">
+</p>
